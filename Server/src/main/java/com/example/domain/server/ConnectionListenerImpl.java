@@ -18,7 +18,6 @@ public class ConnectionListenerImpl implements Connection, Runnable {
     private OutputStream out;
 
     public ConnectionListenerImpl(Socket socket, ConnectionListener connectionListener) throws Exception {
-        super();
         this.socket = socket;
         this.in = socket.getInputStream();
         this.out = socket.getOutputStream();
@@ -62,11 +61,9 @@ public class ConnectionListenerImpl implements Connection, Runnable {
 
         while (needToRun) {
             try {
-                ObjectInputStream objIn = new ObjectInputStream(in);
+                ObjectInputStream objIn = new ObjectInputStream(in); //reading data
 
-                Message msq = (Message) objIn.readObject();
-//
-//              System.out.println("We takes message with type: " + msq.getType());
+                Message msq = (Message) objIn.readObject(); //waiting for object
 
                 sendMessage(msq);
             } catch (IOException ex) {

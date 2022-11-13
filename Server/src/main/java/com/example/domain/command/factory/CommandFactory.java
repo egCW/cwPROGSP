@@ -14,7 +14,7 @@ import com.example.domain.command.impl.user.*;
 public class CommandFactory {
 
 
-    private static final CommandFactory instance = new CommandFactory();
+    private static final CommandFactory instance = new CommandFactory(); //single ton
 
     public static CommandFactory getInstance() {
         return instance;

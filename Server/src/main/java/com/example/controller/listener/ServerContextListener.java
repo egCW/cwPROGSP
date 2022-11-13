@@ -2,7 +2,6 @@ package com.example.controller.listener;
 
 import com.example.dao.core.pool.impl.DatabaseConnectionPool;
 import com.example.domain.server.Server;
-import entity.UserStatus;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,7 +11,7 @@ import java.util.Properties;
 
 public class ServerContextListener {
     ////
-    private static final String DB_INFO_FILE_PATH = "C:\\Work\\Java\\javaCodeDir\\egor\\CW\\Server\\src\\main\\resources\\bd_info.properties";
+    private static final String DB_INFO_FILE_PATH = "D:\\Cursach\\CW\\Server\\src\\main\\resources\\bd_info.properties";
     private static final String DRIVER = "bd.driver";
     private static final String URL = "bd.url";
     private static final String LOGIN = "bd.login";
