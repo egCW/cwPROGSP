@@ -2,8 +2,8 @@ package com.example.dao;
 
 import com.example.dao.core.CrudRepository;
 import com.example.dao.exception.DAOException;
-import com.example.domain.command.impl.entity.User;
-import com.example.domain.command.impl.entity.UserStatus;
+import entity.User;
+import entity.UserStatus;
 
 import java.util.List;
 

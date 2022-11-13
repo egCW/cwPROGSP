@@ -5,7 +5,7 @@ import com.example.dao.core.InitializerRepository;
 import com.example.dao.core.exception.JdbcTemplateException;
 import com.example.dao.exception.DAOException;
 import com.example.dao.mapper.CompanyRowMapper;
-import com.example.domain.command.impl.entity.Company;
+import entity.Company;
 
 import java.util.List;
 

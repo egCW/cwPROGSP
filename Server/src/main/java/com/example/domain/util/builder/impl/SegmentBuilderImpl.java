@@ -1,7 +1,7 @@
 package com.example.domain.util.builder.impl;
 
-import com.example.domain.command.impl.entity.Segment;
 import com.example.domain.util.builder.SegmentBuilder;
+import entity.Segment;
 
 public class SegmentBuilderImpl implements SegmentBuilder {
 

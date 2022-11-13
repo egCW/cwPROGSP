@@ -1,8 +1,8 @@
 package com.example.domain.util.builder.impl;
 
-import com.example.domain.command.impl.entity.User;
-import com.example.domain.command.impl.entity.UserStatus;
 import com.example.domain.util.builder.UserBuilder;
+import entity.User;
+import entity.UserStatus;
 
 public class UserBuilderImpl implements UserBuilder {
 

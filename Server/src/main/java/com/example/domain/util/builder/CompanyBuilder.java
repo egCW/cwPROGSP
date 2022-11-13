@@ -1,8 +1,9 @@
 package com.example.domain.util.builder;
 
-import com.example.domain.command.impl.entity.Company;
-import com.example.domain.command.impl.entity.ProductMarkStatus;
-import com.example.domain.command.impl.entity.Segment;
+
+import entity.Company;
+import entity.ProductMarkStatus;
+import entity.Segment;
 
 public interface CompanyBuilder {
 

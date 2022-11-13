@@ -1,9 +1,9 @@
 package com.example.dao.mapper.builder.impl;
 
 import com.example.dao.mapper.builder.RowMapperBuilder;
-import com.example.domain.command.impl.entity.User;
-import com.example.domain.command.impl.entity.UserStatus;
 import com.example.domain.util.builder.impl.UserBuilderImpl;
+import entity.User;
+import entity.UserStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

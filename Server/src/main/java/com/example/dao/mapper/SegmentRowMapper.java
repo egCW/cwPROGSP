@@ -2,7 +2,7 @@ package com.example.dao.mapper;
 
 import com.example.dao.core.RowMapper;
 import com.example.dao.mapper.builder.impl.SegmentRowMapperBuilder;
-import com.example.domain.command.impl.entity.Segment;
+import entity.Segment;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

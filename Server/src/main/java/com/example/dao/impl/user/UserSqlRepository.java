@@ -6,8 +6,8 @@ import com.example.dao.core.exception.JdbcTemplateException;
 import com.example.dao.exception.DAOException;
 import com.example.dao.impl.DAOUtil;
 import com.example.dao.mapper.UserRowMapper;
-import com.example.domain.command.impl.entity.User;
-import com.example.domain.command.impl.entity.UserStatus;
+import entity.User;
+import entity.UserStatus;
 
 import java.util.List;
 

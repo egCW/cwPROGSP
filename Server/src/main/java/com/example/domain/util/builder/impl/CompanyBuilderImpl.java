@@ -1,9 +1,10 @@
 package com.example.domain.util.builder.impl;
 
-import com.example.domain.command.impl.entity.Company;
-import com.example.domain.command.impl.entity.ProductMarkStatus;
-import com.example.domain.command.impl.entity.Segment;
+
 import com.example.domain.util.builder.CompanyBuilder;
+import entity.Company;
+import entity.ProductMarkStatus;
+import entity.Segment;
 
 public class CompanyBuilderImpl implements CompanyBuilder {
 

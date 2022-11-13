@@ -39,7 +39,7 @@ public class ConnectionWrapper implements Connection {
 
     @Override
     public PreparedStatement prepareStatement(String sql) throws SQLException {
-        return connection.prepareStatement(sql);
+        return connection.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
     }
 
     @Override
