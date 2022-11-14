@@ -28,14 +28,14 @@
 }
 
 .menu-bar .menu-item:selected {
-    -fx-background: rgb(17, 145, 213);
-    -fx-background-color: derive(rgb(17, 145, 213), 50%);
+    -fx-background: rgb(168, 159, 203);
+    -fx-background-color: derive(rgb(168, 159, 203), 50%);
     -fx-text-fill: white;
 }
 
 .menu-bar .menu-item:focused {
-    -fx-background: rgb(17, 145, 213);
-    -fx-background-color: derive(rgb(17, 145, 213), 50%);
+    -fx-background: rgb(168, 159, 203);
+    -fx-background-color: derive(rgb(168, 159, 203), 50%);
     -fx-text-fill: white;
 }
 
