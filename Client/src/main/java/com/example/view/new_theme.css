@@ -1,7 +1,7 @@
 
 .root {
-    -fx-font-size: 14pt;
-    -fx-font-family: "LucidaBrightDemiBold";
+    -fx-font-size: 15pt;
+    /*-fx-font-family: "LucidaBrightDemiBold";*/
     -fx-background: sky-blue;
     -fx-base: rgb(250, 250, 250);
     -fx-focus-color: derive(sky-blue, 90%);
@@ -44,7 +44,8 @@
     -fx-border-color: rgba(255, 255, 255, .80);
     -fx-border-radius: 6;
     -fx-padding: 5 5 5 5;
-    -fx-font: bold italic 16pt "LucidaBrightDemiBold";
+    -fx-font-size: 15pt;
+    /*-fx-font: bold italic 16pt "LucidaBrightDemiBold";*/
 }
 
 .radio-button:selected .radio .dot {
@@ -85,7 +86,8 @@
     -fx-border-color: rgba(255, 255, 255, .80);
     -fx-border-radius: 5;
     -fx-padding: 5 5 5 5;
-    -fx-font: bold italic 16pt "LucidaBrightDemiBold";
+    -fx-font-size: 15pt;
+    /*-fx-font: bold italic 16pt "LucidaBrightDemiBold";*/
 }
 
 .borders {

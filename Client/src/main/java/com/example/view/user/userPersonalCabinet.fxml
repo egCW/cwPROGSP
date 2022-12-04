@@ -102,7 +102,7 @@
       <top>
         <HBox prefHeight="50.0" prefWidth="706.0">
           <children>
-            <Label prefWidth="292.0" text="Личный кабинет пользователя">
+            <Label prefWidth="292.0" text="Личный кабинет">
               <HBox.margin>
                 <Insets left="230.0" />
               </HBox.margin>

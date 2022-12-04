@@ -10,4 +10,5 @@ module client {
 	opens com.example.controller.user to javafx.fxml;
 	opens com.example.starter to javafx.graphics;
 	opens com.example.controller to javafx.fxml;
+	opens com.example.controller.segment to javafx.fxml;
 }

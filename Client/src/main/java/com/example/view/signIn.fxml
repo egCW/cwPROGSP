@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="480.0000999999975" prefWidth="732.0001441406275" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.user.SignInController">
+<AnchorPane prefHeight="480.0000999999975" prefWidth="732.0001441406275" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.user.SignInController">
   <children>
     <VBox layoutX="7.0" layoutY="13.0" prefHeight="454.0" prefWidth="711.0001220703125">
       <children>
@@ -54,12 +54,12 @@
                 <Insets left="20.0" top="30.0" />
               </HBox.margin>
             </Button>
-            <Button defaultButton="true" font="$x3" mnemonicParsing="false" onAction="#SignIn" prefWidth="201.0" text="продолжить">
+            <Button defaultButton="true" font="$x3" mnemonicParsing="false" onAction="#SignIn" prefWidth="201.0" text="Продолжить">
               <HBox.margin>
                 <Insets left="60.0" top="30.0" />
               </HBox.margin>
             </Button>
-            <Button cancelButton="true" font="$x3" mnemonicParsing="false" onAction="#Exit" prefWidth="100.0" text="выход" textFill="BLACK">
+            <Button cancelButton="true" font="$x3" mnemonicParsing="false" onAction="#Exit" prefWidth="100.0" text="Выход" textFill="BLACK">
               <HBox.margin>
                 <Insets left="50.0" top="30.0" />
               </HBox.margin>
