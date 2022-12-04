@@ -25,7 +25,7 @@ public class CommandFactory {
     }
 
 
-    public Command getCommand(Commands commandName) {
+    public Command getCommand(Commands commandName) { //command/factory
 
         switch (commandName) {
             case SIGN_IN:

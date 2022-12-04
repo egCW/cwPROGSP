@@ -27,7 +27,7 @@ public class Server implements ConnectionListener {
         while (true) {
             try {
                 Socket socket = serverSocket.accept(); //wait for client socket
-                connectionCreated(new ConnectionListenerImpl(socket, this));
+                connectionCreated(new ConnectionListenerImpl(socket, this)); //created thread
             } catch (Exception ex) {
                 throw new RuntimeException(ex);
             }
