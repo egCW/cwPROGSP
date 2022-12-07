@@ -7,6 +7,7 @@ import com.example.domain.service.UserService;
 import com.example.domain.service.exception.ServiceException;
 import entity.User;
 import entity.UserStatus;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.util.List;
 
@@ -16,17 +17,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void addNewUser(User user) throws ServiceException {
-
-//        final User user = new UserBuilderImpl()
-//                .withLogin(login)
-//                .withPassword(password)
-//                .withName(name)
-//                .withSurname(surname)
-//                .withBirthDate(new Timestamp(birthDate.getTime() + 11000 * 1000))
-//                .withPhone(phone)
-//                .build();
         try {
-
+            String hashingPassword = DigestUtils.sha256Hex(user.getPassword()).substring(0, 40);
+            user.setPassword(hashingPassword);
             userRepository.add(user);
         } catch (DAOException e) {
             throw new ServiceException(e.getMessage());
@@ -48,10 +41,12 @@ public class UserServiceImpl implements UserService {
 
         try {
             User user = userRepository.getEntityById(userId);
-            if (!user.getPassword().equals(curPassword)) {
+            String curHashingPassword = DigestUtils.sha256Hex(curPassword).substring(0, 40);
+            if (!user.getPassword().equals(curHashingPassword)) {
                 throw new ServiceException("Ваш текущий пароль неверен!");
             }
-            userRepository.updateUserPassword(userId, newPassword);
+            String newHashingPassword = DigestUtils.sha256Hex(newPassword).substring(0, 40);
+            userRepository.updateUserPassword(userId, newHashingPassword);
         } catch (DAOException e) {
             throw new ServiceException(e);
         }
@@ -78,10 +73,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public User signIn(String login, String password) throws ServiceException {
         try {
-            return userRepository.getPatientByLoginAndPassword(login, password);
-//            if (user == null) {
-//                throw new ServiceException("Wrong login or password!");
-//            }
+            String hashingPassword = DigestUtils.sha256Hex(password).substring(0, 40);
+            return userRepository.getPatientByLoginAndPassword(login, hashingPassword);
         } catch (DAOException e) {
             throw new ServiceException(e.getMessage());
         }
