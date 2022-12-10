@@ -11,7 +11,7 @@
 
 .menu:pressed {
     -fx-background: brighter-sky-blue;
-    -fx-background-color: sky-blue;
+    -fx-background-color: #cecece;
     -fx-text-fill: white;
 }
 
@@ -87,7 +87,6 @@
     -fx-border-radius: 5;
     -fx-padding: 5 5 5 5;
     -fx-font-size: 15pt;
-    /*-fx-font: bold italic 16pt "LucidaBrightDemiBold";*/
 }
 
 .borders {

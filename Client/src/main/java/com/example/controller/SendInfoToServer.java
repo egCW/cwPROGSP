@@ -10,11 +10,11 @@ public final class SendInfoToServer {
     }
 
 
-    public static boolean sendInfoToServer(Commands addNewPatient,
+    public static boolean sendInfoToServer(Commands addNewCommand,
                                            String key,
                                            Object data) {
 
-        Command command = CommandFactory.getInstance().createCommand(addNewPatient);
+        Command command = CommandFactory.getInstance().createCommand(addNewCommand);
         Message request = new Message();
         request.add(key, data);
         Message response = command.execute(request);

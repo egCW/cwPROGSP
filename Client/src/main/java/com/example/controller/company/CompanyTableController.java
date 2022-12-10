@@ -57,7 +57,7 @@ public class CompanyTableController {
     private DialogCompaniesTableController dialogCompaniesTableController;
     private ShowDialogController showDialog = new ShowDialogController();
 
-    public void initialize() {
+    public void initialize() { //javafx init controller
         dialogCompaniesTableController = (DialogCompaniesTableController) showDialog
                 .getDialogController(dialogCompaniesTableController, Pages.DIALOG_COMPANY_TABLE_PAGE);
         prepareAndSetDataToTable(GET_ALL_COMPANIES);

@@ -18,7 +18,7 @@ public class CommandFactory {
 
     public static CommandFactory getInstance() {
         return instance;
-    }
+    } // singleton, we can create only one object
 
     private CommandFactory() {
 
@@ -26,7 +26,7 @@ public class CommandFactory {
 
     private static final Connection connection = Connector.getConnection();
 
-    public Command createCommand(Commands command) {
+    public Command createCommand(Commands command) { // factory pattern
 
         switch (command) {
             case SIGN_IN:

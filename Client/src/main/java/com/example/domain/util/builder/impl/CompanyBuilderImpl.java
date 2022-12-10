@@ -5,7 +5,7 @@ import entity.Company;
 import entity.ProductMarkStatus;
 import entity.Segment;
 
-public class CompanyBuilderImpl implements CompanyBuilder {
+public class CompanyBuilderImpl implements CompanyBuilder { // builder pattern
 
     private String id;
     private Segment segment;
