@@ -24,7 +24,6 @@ public class DatabaseConnectionPool implements ConnectionPool {
     private DatabaseConnectionPool() {
     }
 
-    /************************************************************************/
 
     private BlockingQueue<ProxyConnection> availableConnections;
     private BlockingQueue<ProxyConnection> usedConnections;

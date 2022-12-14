@@ -49,7 +49,7 @@
         </HBox>
         <HBox prefHeight="96.0" prefWidth="667.0">
           <children>
-            <Button fx:id="btnSignUp" font="$x3" mnemonicParsing="false" onAction="#SignUp" prefWidth="223.0" text="Регистрация" textFill="BLACK">
+            <Button fx:id="btnSignUp" font="$x3" mnemonicParsing="false" onAction="#SignUp" prefWidth="223.0" text="Регистрация" textFill="#fffbfd">
               <HBox.margin>
                 <Insets left="20.0" top="30.0" />
               </HBox.margin>
@@ -59,7 +59,7 @@
                 <Insets left="60.0" top="30.0" />
               </HBox.margin>
             </Button>
-            <Button cancelButton="true" font="$x3" mnemonicParsing="false" onAction="#Exit" prefWidth="100.0" text="Выход" textFill="BLACK">
+            <Button cancelButton="true" font="$x3" mnemonicParsing="false" onAction="#Exit" prefWidth="100.0" text="Выход" textFill="#fffbfd">
               <HBox.margin>
                 <Insets left="50.0" top="30.0" />
               </HBox.margin>

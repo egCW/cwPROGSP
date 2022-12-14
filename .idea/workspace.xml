@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef35504e-35e5-4d84-aed7-2e551258edbb" name="Changes" comment="added hash">
+    <list default="true" id="ef35504e-35e5-4d84-aed7-2e551258edbb" name="Changes" comment="changed style after review">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dfafc4f8-eef1-44db-b53d-df8553fe93cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dfafc4f8-eef1-44db-b53d-df8553fe93cc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/controller/SendInfoToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/controller/SendInfoToServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/controller/company/CompanyTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/controller/company/CompanyTableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/domain/command/factory/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/domain/command/factory/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/domain/util/builder/impl/CompanyBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/domain/util/builder/impl/CompanyBuilderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/new_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/new_theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/company/companyTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/company/companyTable.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/company/dialogCompanyTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/company/dialogCompanyTable.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/segment/dialogSegmentTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/segment/dialogSegmentTable.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/segment/segmentTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/segment/segmentTable.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/signIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/signIn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/example/domain/manager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/example/domain/manager/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/com/example/domain/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/com/example/domain/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/dialogUserTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/dialogUserTable.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/signUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/signUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/updatePassword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/updatePassword.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/userPersonalCabinet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/userPersonalCabinet.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/usersTable.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/view/user/usersTable.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/example/dao/core/pool/impl/DatabaseConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/example/dao/core/pool/impl/DatabaseConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/target/classes/com/example/dao/core/pool/impl/DatabaseConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/com/example/dao/core/pool/impl/DatabaseConnectionPool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +154,12 @@
       <workItem from="1670352766617" duration="745000" />
       <workItem from="1670405952206" duration="3227000" />
       <workItem from="1670659836451" duration="4185000" />
-      <workItem from="1670680025003" duration="705000" />
+      <workItem from="1670680025003" duration="766000" />
+      <workItem from="1670832033887" duration="682000" />
+      <workItem from="1670900612178" duration="61000" />
+      <workItem from="1670902044130" duration="3158000" />
+      <workItem from="1671003815190" duration="4005000" />
+      <workItem from="1671020764097" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="implemented server">
       <created>1668330185562</created>
@@ -199,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670406006037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed style after review">
+      <created>1670680772526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670680772526</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +242,8 @@
     <MESSAGE value="Changed ui" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="added hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hash" />
+    <MESSAGE value="changed style after review" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed style after review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
